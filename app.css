@@ -1,0 +1,49 @@
+body{
+    margin:0;
+}
+
+.menu{
+    border: 2px green solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+/*menu left and right side (left div, right div) + styling */
+
+.menu-left{
+    border: 1px red solid;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.menu-right{
+    border: 1px blue solid;
+}
+
+
+.menu ul, li, a{
+text-decoration: none;
+list-style: none;
+display: flex;
+}
+
+/* menu items (h1, ul/li, a) */
+
+.menu-logo{
+    margin:0;
+    padding: 0;
+}
+
+.menu-contacts{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-links{
+    margin: 0;
+    padding: 0 
+}
+
